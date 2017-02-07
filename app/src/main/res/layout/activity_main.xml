@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorBackground"
+    tools:context="com.example.android.startrekspeciesquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/star_trek_sign" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="@string/quiz_title"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question_first" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_1"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_q1_1"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/ic_klingon"
+                android:paddingBottom="4dp" />
+
+            <RadioButton
+                android:id="@+id/radio_q1_2"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/ic_vulcan"
+                android:paddingBottom="4dp" />
+
+            <RadioButton
+                android:id="@+id/radio_q1_3"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/ic_romul"
+                android:paddingBottom="4dp" />
+
+            <RadioButton
+                android:id="@+id/radio_q1_4"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/ic_human"
+                android:paddingBottom="4dp" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question_second" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_2"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_q2_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/cardassian" />
+
+            <RadioButton
+                android:id="@+id/radio_q2_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/ferengi" />
+
+            <RadioButton
+                android:id="@+id/radio_q2_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/vulcan" />
+
+            <RadioButton
+                android:id="@+id/radio_q2_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/talaxian" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question_third" />
+
+        <EditText
+            android:id="@+id/edit_text_answer"
+            style="@style/EditTextStyle"
+            android:hint="@string/hint" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_fourth" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_4"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_q4_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/barolian" />
+
+            <RadioButton
+                android:id="@+id/radio_q4_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/cardassian" />
+
+            <RadioButton
+                android:id="@+id/radio_q4_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/bajoran" />
+
+            <RadioButton
+                android:id="@+id/radio_q4_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/tholian" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question_fifth" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_5"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_q5_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/betazoid" />
+
+            <RadioButton
+                android:id="@+id/radio_q5_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/vulcan" />
+
+            <RadioButton
+                android:id="@+id/radio_q5_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/talaxian" />
+
+            <RadioButton
+                android:id="@+id/radio_q5_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/trill" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question_sixth" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_6"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_q6_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/bolian" />
+
+            <RadioButton
+                android:id="@+id/radio_q6_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/vidiian" />
+
+            <RadioButton
+                android:id="@+id/radio_q6_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/vulcan" />
+
+            <RadioButton
+                android:id="@+id/radio_q6_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/romulan" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question_seventh" />
+
+        <CheckBox
+            android:id="@+id/checkbox_1"
+            style="@style/CheckBoxStyle"
+            android:text="@string/klingon" />
+
+        <CheckBox
+            android:id="@+id/checkbox_2"
+            style="@style/CheckBoxStyle"
+            android:text="@string/andorian" />
+
+        <CheckBox
+            android:id="@+id/checkbox_3"
+            style="@style/CheckBoxStyle"
+            android:text="@string/talaxian" />
+
+        <CheckBox
+            android:id="@+id/checkbox_4"
+            style="@style/CheckBoxStyle"
+            android:text="@string/breen" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_eighth" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_8"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_q8_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/orion" />
+
+            <RadioButton
+                android:id="@+id/radio_q8_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/benzite" />
+
+            <RadioButton
+                android:id="@+id/radio_q8_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/betazoid" />
+
+            <RadioButton
+                android:id="@+id/radio_q8_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/rigellian" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question_nineth" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_9"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_q9_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/shapeshifter" />
+
+            <RadioButton
+                android:id="@+id/radio_q9_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/hair_dresser" />
+
+            <RadioButton
+                android:id="@+id/radio_q9_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/organian" />
+
+            <RadioButton
+                android:id="@+id/radio_q9_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/chameleon" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question_tenth" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_10"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_q10_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/kzinti" />
+
+            <RadioButton
+                android:id="@+id/radio_q10_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/cardassian" />
+
+            <RadioButton
+                android:id="@+id/radio_q10_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/hirogen" />
+
+            <RadioButton
+                android:id="@+id/radio_q10_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/gorn" />
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:onClick="clickedButton"
+                android:text="See results" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
