@@ -43,5 +43,5 @@
     <string name="toast_not_answered">Please answer all questions, thanks.</string>
     <string name="toast_part_one">"Quiz completed!\nYou scored "</string>
     <string name="toast_part_two">" of 10 questions correct."</string>
-    <string name="text_final">" of 10 questions correct"</string>
+    <string name="text_final">" of 10 answers correct"</string>
 </resources>
