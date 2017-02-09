@@ -4,7 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#FFFFFF</color>
-    <color name="colorBackground">#FFFFFF</color>
-    <color name="colorTransparencyOne">#aa1976D2</color>
-    <color name="colorTransparencyTwo">#aa2196F3</color>
+    <color name="colorBackground">#000000</color>
+    <color name="colorTransparencyOne">#1976D2</color>
+    <color name="colorTransparencyTwo">#E62196F3</color>
+    <color name="colorYellow">#FFFF00</color>
 </resources>

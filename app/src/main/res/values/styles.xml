@@ -9,36 +9,49 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="titleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/margin_one</item>
+        <item name="android:layout_marginTop">@dimen/margin_one</item>
+        <item name="android:text">@string/quiz_title</item>
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="QuestionStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">16dp</item>
-        <item name="android:padding">4dp</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:padding">@dimen/padding_two</item>
         <item name="android:background">@color/colorTransparencyOne</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
     </style>
 
     <style name="RadioGroupStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingBottom">@dimen/padding_three</item>
     </style>
 
     <style name="RadioButtonStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingLeft">@dimen/padding_four</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">16dp</item>
+        <item name="android:textSize">@dimen/text_size</item>
         <item name="android:background">@color/colorTransparencyTwo</item>
     </style>
 
     <style name="CheckBoxStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:textSize">16dp</item>
+        <item name="android:paddingLeft">@dimen/padding_four</item>
+        <item name="android:textSize">@dimen/text_size</item>
         <item name="android:textStyle">bold</item>
         <item name="android:background">@color/colorTransparencyTwo</item>
     </style>
@@ -47,8 +60,30 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/colorTransparencyTwo</item>
-        <item name="android:padding">4dp</item>
-        <item name="android:textSize">16dp</item>
+        <item name="android:padding">@dimen/padding_two</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:hint">@string/hint</item>
+        <item name="android:layout_marginBottom">@dimen/margin_one</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:onClick">clickedButton</item>
+        <item name="android:text">@string/text_result</item>
+    </style>
+
+    <style name="ResultStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:padding">@dimen/padding_two</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorWhite</item>
     </style>
 
 </resources>
